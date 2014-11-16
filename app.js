@@ -28,4 +28,12 @@ angular.module('fakeNews',[])
 		$scope.incrementUpvotes = function(post){
 			post.upvotes += 1;
 		}
-	}]);
+	}
+]);
+
+.factory('posts',[function(){
+	var o = {
+		posts: []
+	};
+	return o;
+}]);
