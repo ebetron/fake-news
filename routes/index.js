@@ -122,7 +122,7 @@ router.put('/posts/:post/upvote', function(req, res, next){
 });
 
 /*Increase Upvotes on Comments*/
-router.put('posts/:post/comments/:comment/upvote', function(req, res, next){
+router.put('/posts/:post/comments/:comment/upvote', function(req, res, next){
 	req.comment.upvote(function(err, comment){
 		if(err){
 			return next(err);
