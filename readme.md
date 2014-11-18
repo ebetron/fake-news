@@ -9,7 +9,7 @@ What you'll need to run the app:
 2. Install [MongoDB](http://www.mongodb.org) on your local machine
 3. `clone` the repo
 4. `cd` into the working directory
-5. Run `npm install` to get all the node_modules (you can look at the package.json file to see what modules are being installed.
+5. Run `npm install` to get all the node_modules (you can look at the package.json file to see what modules are being installed).
 6. Turn on MongoDB (`mongod`).
 7. Run `npm start`
 8. Go to `localhost:3000` on a browser (preferably Firefox or Chrome because IE sucks!).
