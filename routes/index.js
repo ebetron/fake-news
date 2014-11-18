@@ -96,14 +96,14 @@ router.post('/posts/:post/comments', function(req, res, next){
 router.param('comment', function(req, res, next, id){
 	var query = Comment.findById(id);
 
-	query.exec(function(err, post){
+	query.exec(function(err, comment){
 		if(err){
 			return next(err);
 		}
 		if(!comment){
-			return next(new Erro("can't find comment"));
+			return next(new Error("can't find comment"));
 		}
-		req.comment = post;
+		req.comment = comment;
 		return next();
 	});
 });
