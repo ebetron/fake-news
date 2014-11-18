@@ -5,8 +5,8 @@ These are the results of following the 'thinkster.io' tutorial at [this address]
 
 What you'll need to run the app:
 
-1. [node.js](http://nodejs.org) on your local machine
-2. [MongoDB](http://www.mongodb.org) on your local machine
+1. Install [node.js](http://nodejs.org) on your local machine
+2. Install [MongoDB](http://www.mongodb.org) on your local machine
 3. `clone` the repo
 4. `cd` into the working directory
 5. Run `npm install` to get all the node_modules (you can look at the package.json file to see what modules are being installed.
